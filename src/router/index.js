@@ -15,6 +15,11 @@ const routes = [
     component: () => import("@/views/chat/index"),
     meta: { title: "聊天室" },
   },
+  {
+    path: "/chat/room",
+    component: () => import("@/views/chat/room"),
+    meta: { title: "聊天室" },
+  },
 //   {
 //     path: "/:pathMatch(.*)*",
 //     component: () => import("@/views/exception/404"),
